@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ATAPI.Data\ATAPI.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ATAPI.Core">
+      <HintPath>..\..\..\ATAPI.Cargo\ATAPI.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
